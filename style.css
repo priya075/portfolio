@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Licorice&family=Orbitron&family=Pacifico&family=Source+Code+Pro:wght@500&family=Special+Elite&display=swap');
+
+
+/* Fonts */
+.caveat { font-family: 'Caveat', cursive; }
+.orbitron { font-family: 'Orbitron', sans-serif; }
+.pacifico { font-family: 'Pacifico', cursive; }
+.sourceCodePro { font-family: 'Source Code Pro', monospace; }
+.licorice { font-family: 'Licorice', cursive; }
+.specialElite { font-family: 'Special Elite', cursive; }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: black;
+    color: azure;
+}
+
+.intro {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.about {
+    /* background-color: coral; */
+    font-size: 32px;
+}
+
+.hello {
+    font-size: 1em;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+.designation {
+    font-size: 1em;
+}
+
+.currentPos {
+    font-size: 1em;
+}
+
+.social {
+    margin-top: 40px;
+}
+/* 
+.skills {
+    text-align: center;
+    height: 100vw;
+    font-size: 20px ;
+}
+
+.skill {
+    display: flex;
+    margin-top: 10px;
+}
+
+.skillType {
+    margin-bottom: 40px;
+}
+
+.skillName {
+    width: 20vw;
+
+}
+
+.skillScore {
+    height: 20px;
+}
+
+.twenty {
+    width: 10vw;
+    background-color: greenyellow;
+}
+.forty {
+    width: 30vw;
+    background-color: aqua;
+}
+.sixty {
+    width: 50vw;
+    background-color: chocolate;
+}
+.eighty {
+    width: 70vw; 
+    background-color: deeppink;
+}
+ */
+
+@media (max-width: 640px) {
+    .photo {
+        display: none;
+    }
+}
+
